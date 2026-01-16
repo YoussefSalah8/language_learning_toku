@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:language_learning_toku/screens/home_page.dart';
+import 'screens/home_page.dart';
+
 
 
 void main(){
