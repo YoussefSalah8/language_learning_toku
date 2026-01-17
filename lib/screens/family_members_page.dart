@@ -7,62 +7,62 @@ class FamilyMembersPage extends StatelessWidget {
 
   final List <ItemModel> items = [
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'one',
+        jpLanguage: 'Sofu',
+        enLanguage: 'Grand father',
         image: 'assets/images/family_members/family_grandfather.png',
         sound: 'sounds/family_members/grand father.wav'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'two',
+        jpLanguage: 'Sobo',
+        enLanguage: 'Grand mother',
         image: 'assets/images/family_members/family_grandmother.png',
         sound: 'sounds/family_members/grand mother.wav'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'four',
+        jpLanguage: 'Chichioya',
+        enLanguage: 'Father',
         image: 'assets/images/family_members/family_father.png',
-        sound: 'sounds/family_members/grand father.wav'
+        sound: 'sounds/family_members/father.wav'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'five',
+        jpLanguage: 'Hahaoyau',
+        enLanguage: 'Mother',
         image: 'assets/images/family_members/family_mother.png',
-        sound: 'sounds/family_members/grand mother.wav'
+        sound: 'sounds/family_members/mother.wav'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'six',
+        jpLanguage: 'Ani',
+        enLanguage: 'Older brother',
         image: 'assets/images/family_members/family_older_brother.png',
         sound: 'sounds/family_members/older bother.wav'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'seven',
+        jpLanguage: 'Ane',
+        enLanguage: 'Older sister',
         image: 'assets/images/family_members/family_older_sister.png',
         sound: 'sounds/family_members/older sister.wav'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'eight',
+        jpLanguage: 'Otōto',
+        enLanguage: 'Younger brother',
         image: 'assets/images/family_members/family_younger_brother.png',
         sound: 'sounds/family_members/younger brohter.wav'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'nine',
+        jpLanguage: 'Imōto',
+        enLanguage: 'Younger sister',
         image: 'assets/images/family_members/family_younger_sister.png',
         sound: 'sounds/family_members/younger sister.wav'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'ten',
+        jpLanguage: 'Musuko',
+        enLanguage: 'Son',
         image: 'assets/images/family_members/family_son.png',
         sound: 'sounds/family_members/son.wav'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'three',
+        jpLanguage: 'Musume',
+        enLanguage: 'Daughter',
         image: 'assets/images/family_members/family_daughter.png',
         sound: 'sounds/family_members/daughter.wav'
     ),

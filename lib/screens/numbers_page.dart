@@ -61,7 +61,7 @@ class NumbersPage extends StatelessWidget {
         sound: 'sounds/numbers/number_nine_sound.mp3'
     ),
     ItemModel(
-        jpLanguage: 'ku',
+        jpLanguage: 'Jū',
         enLanguage: 'Ten',
         image: 'assets/images/numbers/number_ten.png',
         sound: 'sounds/numbers/number_ten_sound.mp3'
