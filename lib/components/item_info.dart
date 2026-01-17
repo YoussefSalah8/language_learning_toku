@@ -1,4 +1,3 @@
-import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import '../models/item_model.dart';
 
@@ -7,27 +6,38 @@ class ItemInfo extends StatelessWidget {
 
   final ItemModel item;
 
-
   @override
   Widget build(BuildContext context) {
     return Row(
       children: [
-        Padding(
-          padding: const EdgeInsets.only(left: 20),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Text(item.jpLanguage, style: const TextStyle(fontSize: 24, color: Colors.white),),
-              Text(item.enLanguage, style: const TextStyle(fontSize: 24, color: Colors.white),),
-            ],),
+        Expanded(
+          child: Padding(
+            padding: const EdgeInsets.only(left: 16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  item.jpLanguage,
+                  style: const TextStyle(fontSize: 15, color: Colors.white),
+                  overflow: TextOverflow.ellipsis,
+                  maxLines: 1,
+                ),
+                Text(
+                  item.enLanguage,
+                  style: const TextStyle(fontSize: 15, color: Colors.white),
+                  overflow: TextOverflow.ellipsis,
+                  maxLines: 1,
+                ),
+              ],
+            ),
+          ),
         ),
-        const Spacer(flex: 1),
         Padding(
-          padding:  const EdgeInsets.only(right: 20),
-          child:  IconButton(
+          padding: const EdgeInsets.only(right: 16),
+          child: IconButton(
             onPressed: () {
-              final player =  AudioPlayer();
-              player.play( AssetSource(item.sound));
+              item.playSound();
             },
             icon: const Icon(Icons.play_arrow, color: Colors.white),
           ),

@@ -6,52 +6,52 @@ class ColorsPage extends StatelessWidget {
   ColorsPage({super.key});
   final List <ItemModel> items = [
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'one',
+        jpLanguage: 'Kuro',
+        enLanguage: 'Black',
         image: 'assets/images/colors/color_black.png',
         sound: 'sounds/colors/black.wav'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'two',
+        jpLanguage: 'Chairo',
+        enLanguage: 'Brown',
         image: 'assets/images/colors/color_brown.png',
         sound: 'sounds/colors/brown.wav'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'three',
+        jpLanguage: 'Dasutiierō',
+        enLanguage: 'Dusty yellow',
         image: 'assets/images/colors/color_dusty_yellow.png',
         sound: 'sounds/colors/dusty yellow.wav'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'four',
+        jpLanguage: 'Gurē',
+        enLanguage: 'Gray',
         image: 'assets/images/colors/color_gray.png',
         sound: 'sounds/colors/gray.wav'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'five',
+        jpLanguage: 'Midori',
+        enLanguage: 'Green',
         image: 'assets/images/colors/color_green.png',
         sound: 'sounds/colors/green.wav'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'six',
+        jpLanguage: 'Aka',
+        enLanguage: 'Red',
         image: 'assets/images/colors/color_red.png',
         sound: 'sounds/colors/red.wav'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'seven',
+        jpLanguage: 'Shiro',
+        enLanguage: 'White',
         image: 'assets/images/colors/color_white.png',
         sound: 'sounds/colors/white.wav'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'eight',
+        jpLanguage: 'Kiiro',
+        enLanguage: 'Yellow',
         image: 'assets/images/colors/yellow.png',
-        sound: 'assets/sounds/colors/yellow.wav'
+        sound: 'sounds/colors/yellow.wav'
     ),
 
   ];

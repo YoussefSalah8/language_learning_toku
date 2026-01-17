@@ -7,62 +7,62 @@ class NumbersPage extends StatelessWidget {
 
   final List <ItemModel> items = [
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'one',
+        jpLanguage: 'Tsu',
+        enLanguage: 'One',
         image: 'assets/images/numbers/number_one.png',
         sound: 'sounds/numbers/number_one_sound.mp3'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'two',
+        jpLanguage: 'Ni',
+        enLanguage: 'Two',
         image: 'assets/images/numbers/number_two.png',
         sound: 'sounds/numbers/number_two_sound.mp3'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'three',
+        jpLanguage: 'Mittsu',
+        enLanguage: 'Three',
         image: 'assets/images/numbers/number_three.png',
         sound: 'sounds/numbers/number_three_sound.mp3'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'four',
+        jpLanguage: 'Tsu',
+        enLanguage: 'Four',
         image: 'assets/images/numbers/number_four.png',
         sound: 'sounds/numbers/number_four_sound.mp3'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'five',
+        jpLanguage: 'Go',
+        enLanguage: 'Five',
         image: 'assets/images/numbers/number_five.png',
         sound: 'sounds/numbers/number_five_sound.mp3'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'six',
+        jpLanguage: 'Roku',
+        enLanguage: 'Six',
         image: 'assets/images/numbers/number_six.png',
         sound: 'sounds/numbers/number_six_sound.mp3'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'seven',
+        jpLanguage: 'Sebun',
+        enLanguage: 'Seven',
         image: 'assets/images/numbers/number_seven.png',
         sound: 'sounds/numbers/number_seven_sound.mp3'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'eight',
+        jpLanguage: 'Hachi',
+        enLanguage: 'Eight',
         image: 'assets/images/numbers/number_eight.png',
         sound: 'sounds/numbers/number_eight_sound.mp3'
     ),
     ItemModel(
-        jpLanguage: 'ku',
-        enLanguage: 'nine',
+        jpLanguage: 'Kyū',
+        enLanguage: 'Nine',
         image: 'assets/images/numbers/number_nine.png',
         sound: 'sounds/numbers/number_nine_sound.mp3'
     ),
     ItemModel(
         jpLanguage: 'ku',
-        enLanguage: 'ten',
+        enLanguage: 'Ten',
         image: 'assets/images/numbers/number_ten.png',
         sound: 'sounds/numbers/number_ten_sound.mp3'
     ),

@@ -7,44 +7,44 @@ class PhrasesPage extends StatelessWidget {
 
    final List <ItemModel> phrases = [
      ItemModel(
-         jpLanguage: 'ku',
-         enLanguage: 'one',
-         sound: 'sounds/colors/black.wav'
+         jpLanguage: 'Kimasu ka',
+         enLanguage: 'Are you coming',
+         sound: 'sounds/phrases/are_you_coming.wav'
      ),
      ItemModel(
-         jpLanguage: 'ku',
-         enLanguage: 'two',
-         sound: 'sounds/colors/brown.wav'
+         jpLanguage: 'Kōdoku o o wasurenaku',
+         enLanguage: "Don't forget to subscribe",
+         sound: 'sounds/phrases/dont_forget_to_subscribe.wav'
      ),
      ItemModel(
-         jpLanguage: 'ku',
-         enLanguage: 'three',
-         sound: 'sounds/colors/dusty yellow.wav'
+         jpLanguage: 'Go kibun wa ikagadesu ka',
+         enLanguage: 'How are you feeling',
+         sound: 'sounds/phrases/how_are_you_feeling.wav'
      ),
      ItemModel(
-         jpLanguage: 'ku',
-         enLanguage: 'four',
-         sound: 'sounds/colors/gray.wav'
+         jpLanguage: 'Watashi wa anime ga daisukidesu',
+         enLanguage: 'I love anime',
+         sound: 'sounds/phrases/i_love_anime.wav'
      ),
      ItemModel(
-         jpLanguage: 'ku',
-         enLanguage: 'five',
-         sound: 'sounds/colors/green.wav'
+         jpLanguage: 'Watashi wa puroguramingu ga daisukidesu',
+         enLanguage: 'I love programming',
+         sound: 'sounds/phrases/i_love_programming.wav'
      ),
      ItemModel(
-         jpLanguage: 'ku',
-         enLanguage: 'six',
-         sound: 'sounds/colors/red.wav'
+         jpLanguage: 'Anata no namae wa nandesuka',
+         enLanguage: 'What is you name',
+         sound: 'sounds/phrases/what_is_your_name.wav'
      ),
      ItemModel(
-         jpLanguage: 'ku',
-         enLanguage: 'seven',
-         sound: 'sounds/colors/white.wav'
+         jpLanguage: 'Doko ni iku no',
+         enLanguage: 'Where are you going',
+         sound: 'sounds/phrases/where_are_you_going.wav'
      ),
      ItemModel(
-         jpLanguage: 'ku',
-         enLanguage: 'eight',
-         sound: 'assets/sounds/colors/yellow.wav'
+         jpLanguage: 'Hai, ikimasu',
+         enLanguage: "Yes i'm  coming",
+         sound: 'sounds/phrases/yes_im_coming.wav'
      ),
 
    ];
@@ -52,7 +52,6 @@ class PhrasesPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // backgroundColor: Color(0xfffef6db),
         appBar: AppBar(
           iconTheme: IconThemeData(color: Colors.white),
           title: const Text('Phrases', style: TextStyle(fontSize: 24, color: Colors.white),),
